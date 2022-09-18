@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtInputNumbers = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -43,12 +43,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Введите ваши числа через пробел";
             // 
-            // textBox1
+            // txtInputNumbers
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 94);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(426, 27);
-            this.textBox1.TabIndex = 1;
+            this.txtInputNumbers.Location = new System.Drawing.Point(12, 94);
+            this.txtInputNumbers.Name = "txtInputNumbers";
+            this.txtInputNumbers.Size = new System.Drawing.Size(426, 27);
+            this.txtInputNumbers.TabIndex = 1;
             // 
             // button1
             // 
@@ -76,7 +76,7 @@
             this.ClientSize = new System.Drawing.Size(456, 195);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtInputNumbers);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -88,7 +88,7 @@
         #endregion
 
         private Label label1;
-        private TextBox textBox1;
+        private TextBox txtInputNumbers;
         private Button button1;
         private Label label2;
     }
